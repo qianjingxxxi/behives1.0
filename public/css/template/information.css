@@ -1,0 +1,54 @@
+.save{
+	position: absolute;
+	right: .3rem;top: 0;
+	line-height: .88rem;
+	font-size: .28rem;
+	background: none;
+	color: #fff;
+}
+.content{margin-bottom: .3rem;}
+.content>li{
+	line-height: .8rem;
+	border-top: 1px solid #999;
+	padding-left: .4rem;
+}
+.content>li label{
+	display: inline-block;
+	font-size: .28rem;
+	color: #2b2b2b;
+}
+.content>li label span{
+	width: 1.2rem;
+	display: inline-block;
+}
+.content>li p,.content>li input{
+	display: inline-block;
+	font-size: .28rem;
+	color: #2b2b2b;
+}
+.content>li input{
+	border: 1px solid #999;
+	border-radius: .1rem;
+	margin:.1rem 0 .1rem .2rem;
+	padding:.1rem;
+	width: 3.8rem;
+}
+.changeHeader p{
+	float: left;
+	font-size: .28rem;
+	color: #2b2b2b;
+	vertical-align: top;
+	line-height: 1.2rem;
+}
+.headerImg{
+	float: left;
+	height: .8rem;
+	margin: .16rem .3rem .22rem .34rem;
+}
+.arrow{
+	float: right;
+}
+.arrow img{
+	height: .3rem;
+	margin: .44rem .2rem;
+}

@@ -1,0 +1,69 @@
+body{background: #e5e7e8;}
+.content>li span{
+	display: block;
+	width: 1.4rem;height: .3rem;
+	line-height: .3rem;
+	color: #fff;
+	font-size: .2rem;
+	background: rgba(188,188,188,.5);
+	margin:.3rem auto .2rem;
+	border-radius: .04rem;
+	text-align: center;
+}
+.content>li{
+	float: left;
+	width: 100%;
+}
+.content>li .headerImg{
+	display: inline-block;
+}
+.content>li .headerImg img{
+	height: .8rem;
+	margin:0  .12rem 0 .16rem;
+}
+.content>li p{
+	background: #fff;
+	display: inline-block;
+	vertical-align: top;
+	padding: .08rem .18rem .18rem;
+	font-size: .28rem;
+	color: #2b2b2b;
+	border-radius: .04rem;
+	width: 3.74rem;
+	line-height: .46rem;
+}
+.content .userRight{
+	float: right;
+	text-align: right;
+	
+}
+.content .userRight .headerImg img{
+	margin: 0 .16rem 0 .12rem;
+}
+.content .userRight p{text-align: left;}
+/*留言*/
+.send{
+	position: fixed;
+	width: 100%;
+	bottom: 0;left: 0;
+	background: #f7f7f7;
+}
+.send input{
+	background: #fff;
+	border: 1px solid #e5e5e5;
+	font-size: .28rem;
+	color: #000;
+	height: .56rem;
+	margin: .1rem 0 .1rem 4%;
+	width: 62%;
+	padding: 0 4%;
+}
+.send button{
+	width: 24%;
+	background: none;
+	height: .7rem;
+	vertical-align: top;
+	margin-top: .04rem;
+	font-size: .28rem;
+	color: #000;
+}

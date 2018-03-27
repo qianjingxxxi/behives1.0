@@ -1,0 +1,92 @@
+
+/*功能按钮*/
+.content{
+	padding: .32rem 0 .18rem;
+    -webkit-box-shadow: 0 0.02rem 0.08rem rgba(0,0,0,.45);
+    -moz-box-shadow: 0 .02rem .08rem rgba(0,0,0,.45);
+    box-shadow: 0 0.02rem 0.08rem rgba(0,0,0,.45);
+}
+.content>a{
+	width: 33%;
+	float: left;
+	text-align: center;
+	border-bottom: 1px solid #2a2a2a;
+}
+.content>a img{
+	height: .6rem;
+	margin: .34rem 0 .2rem;
+}
+.content>a p{
+	margin-bottom: .34rem;
+	font-size: .24rem;
+	color: #2a2a2a;
+	font-weight: 500;
+}
+.content>a:nth-child(2),.content>a:nth-child(5){
+    border-right: 1px solid #2a2a2a;
+    border-left: 1px solid #2a2a2a;
+}
+.content>a:nth-child(4),.content>a:nth-child(5){
+    border-bottom: none;
+}
+.content>a:nth-child(2),.content>a:nth-child(1){position: relative;}
+.content>a:nth-child(2):after,.content>a:nth-child(1):after{
+	content: "";
+    position: absolute;
+    right: -.18rem;
+    bottom: -.18rem;
+    width: .36rem;
+    height: .36rem;
+    background: #fff;
+    border-radius: 50%;
+    z-index: 9;
+}
+/*历史数据*/
+.historyLists{
+	margin-top: .7rem;
+	border-top: 1px solid #999;
+	 -webkit-box-shadow: 0 0.04rem 0.08rem rgba(0,0,0,.45);
+    -moz-box-shadow: 0 .04rem .08rem rgba(0,0,0,.45);
+    box-shadow: 0 0.04rem 0.08rem rgba(0,0,0,.45);
+}
+.historyLists>li>img{
+	float: left;
+	margin: .26rem 0 0 .2rem;
+	height: .8rem;
+}
+.historyLists>li>div{
+	width: 5.04rem;
+	float: right;
+	vertical-align: top;
+	border-bottom: 1px solid #999;
+	position: relative;
+	padding-left: .14rem;
+}
+.historyLists>li:last-child>div{border: none;}
+.historyLists .examine{
+	position: absolute;
+	right: 0;bottom: -1px;
+	height: .66rem;
+}
+.historyLists .title {margin: .24rem 0 .26rem;}
+.historyLists h2{
+	font-size: .28rem;
+	color: #000;
+	font-weight: 500;
+	float: left;
+	width: 3.4rem;
+}
+.historyLists .title span{
+	float: right;
+	display: inline-block;
+	font-size: .2rem;
+	color: #999;
+	margin-top: .06rem;
+}
+.userData{
+	margin-bottom: .2rem;
+}
+.userData>span{
+	font-size: .24rem;
+	color: #999;
+}

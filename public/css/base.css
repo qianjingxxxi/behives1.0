@@ -1,0 +1,136 @@
+
+/*search*/
+input::-webkit-input-placeholder{color: #999;}
+.search>div{
+	border-radius: .1rem;
+	background: #fff;
+	text-align: center;
+}
+.search>div input,.search input{
+	font-size: .24rem;
+	color: #000;
+	padding:.14rem 0;
+	text-indent: .48rem;
+	width:3rem;
+	margin: auto;
+	background: url(../images/work/seatch.png) no-repeat;
+	background-size: .26rem;
+	background-position: left center; 
+}
+/*header*/
+.header{
+	background: #555459;
+	height: .88rem;
+	position: relative;
+	text-align: center;
+}
+.header h1{
+	color: #fff;
+	font-size: .36rem;
+	line-height: .88rem;
+	font-weight: 500;
+}
+.back{
+   position: absolute;
+   left: 0;top: 0;	
+}
+.back img{
+   height: .3rem;
+	margin: .3rem;
+}
+/*footer*/
+.footer{
+	-webkit-box-shadow:0 -.02rem .08rem rgba(0,0,0,.45);
+	-moz-box-shadow:0 -.02rem .08rem rgba(0,0,0,.45);
+	box-shadow: 0 -.02rem .08rem rgba(0,0,0,.45);
+	height: .98rem;width: 100%;
+	position: fixed;
+	left: 0;bottom: 0;
+	background: #fff;
+}
+.footer>a{
+	float: left;
+	width: 25%;
+	text-align: center;
+}
+.footer>a img{
+	height: .5rem;
+	margin: .1rem 0 .06rem;
+}
+.footer>a p{
+	font-size: .2rem;
+	color: #999;
+	font-weight: 500;
+}
+.footer>a .addColor{
+	color: #b2954d;
+}
+.ui-loader{display: none;}
+/*弹框*/
+.dialog{
+	position: fixed;
+	left: 0;top: 0;
+	width: 100%;height: 100%;
+	z-index: 9;
+	display: none;
+}
+.dialogBg{
+	position: fixed;
+	left: 0;top: 0;
+	width: 100%;height: 100%;
+	background: rgba(0,0,0,35);
+}
+.dialogCon{
+	width: 5rem;height: 3rem;
+	background: #fff;
+	border-radius: .1rem;
+	position: fixed;
+	left: 0;right: 0;
+	top: 0;bottom: 0;
+	margin: auto;
+	text-align: center;
+}
+.dialogCon .close{
+	position: absolute;
+	right: -.48rem;top: -.36rem;
+	height: .48rem;
+	z-index: 10;
+}
+.dialogCon h3{
+	font-size: .36rem;
+	color: #000;
+	font-weight: 500;
+	margin: .46rem 0 .34rem;
+}
+.import{
+	padding: .12rem .14rem;
+	border: 1px solid #999;
+	width: 3.4rem;
+	margin:0 auto .24rem;
+}
+.import input{
+	width: 100%;
+	font-size: .36rem;
+	color: #000;
+	border-radius: 0;
+	background: url(../images/work/passwordIcon.png) no-repeat;
+	background-size: .28rem .14rem;
+	background-position: right center; 
+}
+.btnCss{
+	width: 3.2rem;
+	margin: auto;
+}
+.btnCss>a{
+	float: left;
+	width: 1.4rem;
+	line-height: .6rem;
+	height: .6rem;
+	border-radius: .1rem;
+	border: 1px solid #999;
+}
+.btnCss>a:last-child{
+	margin-left: .3rem;
+	background: #b2954d;
+	color: #fff;
+}

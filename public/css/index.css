@@ -1,0 +1,187 @@
+.ui-overlay-a, .ui-page-theme-a, .ui-page-theme-a .ui-panel-wrapper,.ui-btn{
+	background: none;
+	text-shadow: none;
+	margin: 0;padding: 0;
+}
+.ui-btn.ui-corner-all,.ui-page-theme-a .ui-btn:hover, html .ui-bar-a .ui-btn:hover, html .ui-body-a .ui-btn:hover, html body .ui-group-theme-a .ui-btn:hover, html head+body .ui-btn.ui-btn-a:hover{
+	border: none;
+	border-radius:0;
+	color: #000;
+	background-color: rgba(255,255,255,0);
+}
+/*header*/
+.headerIndex{
+	position: fixed;
+	left: 0;top: 0;
+	height: .88rem;width: 100%;
+	text-align: center;
+}
+.headerIndex .message{
+	position: absolute;
+	right: .3rem;top: .2rem;
+}
+.headerIndex .message img{
+	height:.48rem;
+}
+.message>span{
+	width: .26rem;
+	height: .26rem;
+	line-height: .26rem;
+	border-radius: 50%;
+	background: #ee1414;
+	color: #fff;
+	font-size: .2rem;
+	position: absolute;
+	right: -.12rem;top: 0;
+	display: none;
+}
+.headerIndex h1{
+	line-height: .88rem;
+	margin: 0;padding: 0;
+	font-size: .32rem;
+	color: #fff;
+	font-weight: 500;
+}
+#headerIndex h1{color: rgba(255,255,255,1);}
+/*banner*/
+
+.banner{
+	background: url(../images/index/hraderBg.jpg) no-repeat;
+	background-size: 100% 3.46rem;
+	height: 3.46rem;
+	width: 100%;
+	position: relative;
+	z-index: -1;
+	/*margin-top: -.88rem;*/
+}
+.information{padding: 1.3rem 0 0 .5rem;
+}
+.information>img{
+	height: 1.22rem;
+	display: inline-block;
+}
+.information>div{
+	display: inline-block;
+	vertical-align: top;
+	margin-left: .26rem;
+}
+.information>div h2{
+	font-size: .32rem;
+	margin-top: .08rem;
+	color: #fff;
+	font-weight: 500;
+}
+.information>div p{
+	color: #fff;
+	font-size: .2rem;
+	margin-top: .14rem;
+	font-weight: 500;
+}
+.weather{
+	position: absolute;
+	right: .16rem;bottom: .06rem;
+}
+.weather>li{margin-bottom: .1rem;}
+.weather>li p,.weather>li span{
+	display: inline-block;
+	color: #fff;
+	font-size: .2rem;
+}
+.weather>li .type{
+	margin-right: .14rem;
+}
+.weather>li .quality{
+	font-size: .12rem;
+	line-height: .18rem;
+	background: #ade134;
+	padding: .04rem .1rem;
+	border-radius: 30%;
+	margin-right: .06rem;
+}
+.weather>li .map{
+	background: url(../images/index/map.png) no-repeat;
+	background-size: .2rem;
+	text-indent: .24rem;
+	background-position: 0 .02rem;
+	height: .24rem;
+	margin-right: .12rem;
+}
+/*广播*/
+.vadio{
+	height: .4rem;
+	-webkit-box-shadow:0 .02rem .08rem rgba(0,0,0,.45);
+	-moz-box-shadow:0 .02rem .08rem rgba(0,0,0,.45);
+	box-shadow: 0 .02rem .08rem rgba(0,0,0,.45);
+}
+marquee{margin: 0 .24rem;}
+.vadio img{
+	display: inline-block;
+	height: .26rem;
+	margin: .08rem 0 0 .24rem;
+}
+.vadio marquee>div{
+	display: inline-block;
+	vertical-align: top;
+	width: 78%;
+}
+.vadio marquee>div p{
+	display: inline-block;
+	margin-right: .26rem;
+	font-size: .22rem;
+	color: #2a2a2a;
+	line-height: .4rem;
+	font-weight: 500;
+}
+/*content*/
+.content{
+	background: url(../images/index/careBg.png) no-repeat center top;
+	background-size: 6.06rem 5.37rem;
+	margin:.34rem auto 1.1rem;
+	padding: 0 8% .3rem;
+	height: 5.4rem;
+	-webkit-overflow-scrolling:touch
+}
+.content>a{
+	width: 33%;
+	float: left;
+	text-align: center;
+	border-bottom: 1px solid #2a2a2a;
+}
+.content>a img{
+	height: .6rem;
+	margin: .34rem 0 .2rem;
+}
+.content>a p{
+	margin-bottom: .34rem;
+	font-size: .24rem;
+	color: #2a2a2a;
+	font-weight: 500;
+}
+.content>a:first-child img,.content>a:nth-child(2) img,.content>a:nth-child(3) img{
+	margin-top: .08rem;
+}
+.content>a:first-child,.content>a:nth-child(2),.content>a:nth-child(3){
+	margin-top: .3rem;
+}
+.content>a:last-child,.content>a:nth-child(7),.content>a:nth-child(8){
+	border-bottom: none;
+}.content>a:last-child p,.content>a:nth-child(7) p,.content>a:nth-child(8) p{
+	margin-bottom:.08rem;
+}
+.content>a:nth-child(2),.content>a:nth-child(5),.content>a:nth-child(8){
+		border-right: 1px solid #2a2a2a;
+		border-left: 1px solid #2a2a2a;
+}
+.content>a:first-child,.content>a:nth-child(2),.content>a:nth-child(4),.content>a:nth-child(5){
+	position: relative;
+}
+.content>a:first-child:after,.content>a:nth-child(2):after,.content>a:nth-child(4):after,.content>a:nth-child(5):after{
+	content: "";
+	position: absolute;
+	right: -.18rem;bottom: -.18rem;
+	width: .36rem;height: .36rem;
+	background: #fff;
+	border-radius: 50%;
+	z-index: 9;
+}
+

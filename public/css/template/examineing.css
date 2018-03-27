@@ -1,0 +1,59 @@
+.title,.apply{
+    -webkit-box-shadow: 0 0.04rem 0.08rem rgba(0,0,0,.45);
+    -moz-box-shadow: 0 .04rem .08rem rgba(0,0,0,.45);
+    box-shadow: 0 0.04rem 0.08rem rgba(0,0,0,.45);
+    margin-bottom: .2rem;
+}
+label{
+	font-size: .3rem;
+	color: #000;
+	display: inline-block;
+	text-indent: .3rem;
+    line-height: .6rem;
+}
+.title>div,.apply>div{
+	border-bottom: 1px solid #999;
+}
+.title>div>p,.apply>div>p{
+	display: inline-block;
+	font-size: .24rem;
+	line-height: .6rem;
+	color: #333;
+	margin-left: .14rem;
+}
+.see{
+	text-align: center;
+}
+.see>img{
+	height: 1.04rem;
+	margin-top: .3rem;
+}
+.see>p{
+	padding: .24rem 0 .8rem;
+	font-size: .3rem;
+	color: #999;
+}
+button{
+	display: block;
+	margin: 0 auto .3rem ;
+	width: 6rem;
+	line-height: .8rem;
+	background: #fff;
+	-webkit-box-shadow:  0 0 .08rem rgba(0,0,0,.45);
+ 	box-shadow:  0 0 .08rem rgba(0,0,0,.45);
+ 	font-size: .36rem;
+ 	color: #fff;
+ 	letter-spacing: .2rem;
+ 	font-weight: 500;
+}
+.save{
+	background: url(../../images/work/downLoad.png) no-repeat;
+	background-size: .36rem;
+	background-position: 2.14rem center;
+	text-indent: .5rem;
+	font-size: .24rem;
+	color: #000;
+	letter-spacing: 0;
+}
+.pass{background: #63b946;}
+.reject{background: #d45050;}

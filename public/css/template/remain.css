@@ -1,0 +1,74 @@
+/*搜素*/
+.search{
+	background: #555459;
+	padding: .12rem .2rem .12rem;
+}
+/*待办事项*/
+.historyLists{
+	border-top: 1px solid #999;
+	 -webkit-box-shadow: 0 0.04rem 0.08rem rgba(0,0,0,.45);
+    -moz-box-shadow: 0 .04rem .08rem rgba(0,0,0,.45);
+    box-shadow: 0 0.04rem 0.08rem rgba(0,0,0,.45);
+}
+.historyLists>li{
+    float: left;
+    width: 100%;
+}
+.historyLists>li>img{
+	float: left;
+	margin: .26rem 0 0 .2rem;
+	height: .8rem;
+}
+.historyLists>li>div{
+	width: 5.04rem;
+	float: right;
+	vertical-align: top;
+	border-bottom: 1px solid #999;
+	position: relative;
+	padding-left: .14rem;
+}
+.historyLists>li:last-child>div{border: none;}
+.historyLists .examine{
+	position: absolute;
+	right: 0;bottom: -1px;
+	height: .66rem;
+}
+.historyLists .title {margin: .24rem 0 .26rem;}
+.historyLists h2{
+	font-size: .28rem;
+	color: #000;
+	font-weight: 500;
+	float: left;
+	width: 3.4rem;
+}
+.historyLists .title span{
+	float: right;
+	display: inline-block;
+	font-size: .2rem;
+	color: #999;
+	margin-top: .06rem;
+}
+.userData{
+	margin-bottom: .2rem;
+}
+.userData>span{
+	font-size: .24rem;
+	color: #999;
+}
+.hint{
+	position: absolute;
+	right: .18rem;bottom: .2rem;
+	width: .26rem;height: .26rem;
+	line-height: .26rem;
+	color: #fff;
+	font-size: .2rem;
+	background: #ee1414;
+	text-align: center;
+	border-radius: 50%;
+}
+.noneCon{
+	margin: .4rem 0 2rem;
+	text-align: center;
+	height: 100vh;
+	
+}

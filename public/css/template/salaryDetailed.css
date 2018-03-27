@@ -1,0 +1,4 @@
+.content li:nth-child(7) label span,.content li:nth-child(5) label span,.content li:nth-child(6) label span,.content li:nth-child(16) label span,.content li:nth-child(18) label span,.content li:nth-child(19) label span,.content li:nth-child(20) label span,.content li:nth-child(21) label span{
+	width: 1.1rem;
+}
+.content li:nth-child(8) label span{width: 1.7rem;}

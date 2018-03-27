@@ -1,0 +1,57 @@
+
+body{background: #e5e7e8;}
+.content>li{
+	background: #fff;
+	padding: 0 .42rem 0 .34rem;
+}
+.content>li>p,.content>li>div{float: left;}
+.headerImg{
+	float: left;
+	width: .66rem;
+	margin: .3rem 0;
+}
+.headerImg img{
+	height: .6rem;
+	width: auto;
+}
+.icon{
+	float: left;
+	width: .66rem;
+	margin: .24rem 0;
+}
+.icon img{
+	height: .44rem;
+	width: auto;
+}
+.arrow{
+	float: right;
+}
+.arrow img{
+	height: .3rem;
+	margin: .3rem 0;
+}
+.content>li:first-child,.content>li:nth-child(3),.content>li:last-child{
+	margin-bottom: .22rem;
+    -webkit-box-shadow: 0 0.04rem 0.08rem rgba(112,111,111,.35);
+    -moz-box-shadow: 0 .04rem .08rem rgba(112,111,111,.35);
+    box-shadow: 0 0.04rem 0.08rem rgba(112,111,111,.35);
+}
+.content p{
+	font-size: .32rem;
+	color: #000;
+	margin-top: .3rem;
+}
+.content>li>div h2{
+	font-size: .32rem;
+	color: #000;
+	margin-top: .12rem;
+	font-weight: 500;
+}
+.content>li>div p{
+	margin: .14rem 0;
+	font-size: .2rem;
+}
+.content>li:first-child .arrow img{margin: .46rem 0;}
+.content>li:nth-child(2),.content>li:nth-child(4){
+	border-bottom: 1px solid #999;
+}

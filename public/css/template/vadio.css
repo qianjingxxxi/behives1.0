@@ -1,0 +1,63 @@
+body{
+	background: #e5e7e8;
+}
+li{ list-style:none}
+.time{
+	display: block;
+    width: 1.4rem;
+    height: .3rem;
+    line-height: .3rem;
+    color: #fff;
+    font-size: .2rem;
+    background: rgba(188,188,188,.5);
+    margin: .3rem auto .2rem;
+    border-radius: .04rem;
+    text-align: center;
+}
+.vadioCon{
+	background: #fff;
+    -webkit-box-shadow: 0 0.04rem 0.08rem rgba(112,111,111,.35);
+    -moz-box-shadow: 0 .04rem .08rem rgba(112,111,111,.35);
+    box-shadow: 0 0.04rem 0.08rem rgba(112,111,111,.35);
+}
+.vadioCon h2{
+	line-height: .58rem;
+	border-top: 1px solid #999;
+	border-bottom: 1px solid #999;
+	padding: 0 .24rem;
+	font-size: .28rem;
+	color: #2A2A2A;
+	font-weight: 500;
+}
+.vadioCon p{
+	padding: .2rem .24rem .3rem;
+	line-height: .3rem;
+	font-size: .24rem;
+	color:#2A2A2A;
+	text-indent: .24rem;
+	text-align: justify;
+}
+.vadioDetailed{
+	background: #fff;
+}
+.vadioDetailed h2{
+	line-height: .6rem;
+	border-bottom: 1px solid #999;
+	text-align: center;
+	font-weight: 500;
+	font-size: .28rem;
+	color: #000;
+	margin-bottom: .2rem;
+}
+.vadioDetailed p{
+	padding: 0 .24rem;
+	font-size: .24rem;
+	color: #000;
+	line-height: .3rem;
+	text-indent: .24rem;
+	text-align: justify;
+}
+
+
+
+

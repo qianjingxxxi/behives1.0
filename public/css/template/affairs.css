@@ -1,0 +1,25 @@
+.content{
+	padding: .32rem 0 .18rem;
+    -webkit-box-shadow: 0 0.02rem 0.08rem rgba(0,0,0,.45);
+    -moz-box-shadow: 0 .02rem .08rem rgba(0,0,0,.45);
+    box-shadow: 0 0.02rem 0.08rem rgba(0,0,0,.45);
+}
+.content>a{
+	width: 33%;
+	float: left;
+	text-align: center;
+}
+.content>a img{
+	height: .6rem;
+	margin: .34rem 0 .2rem;
+}
+.content>a p{
+	margin-bottom: .34rem;
+	font-size: .24rem;
+	color: #2a2a2a;
+	font-weight: 500;
+}
+.content>a:nth-child(2){
+    border-right: 1px solid #2a2a2a;
+    border-left: 1px solid #2a2a2a;
+}

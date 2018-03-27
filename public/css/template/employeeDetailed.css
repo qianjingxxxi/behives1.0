@@ -1,0 +1,28 @@
+.content li{
+	padding: .3rem .38rem .08rem;
+	border-bottom: 1px solid #999;
+}
+.content li label{
+	display: inline-block;
+	font-size: .24rem;
+	color: #2b2b2b;
+}
+.content li label span{
+	display: inline-block;
+	width:1rem;
+}
+.content li p{
+	display: inline-block;
+	font-size: .24rem;
+	color: #2b2b2b;
+	margin-left: .46rem;
+}
+.backCharge li label span,.vocational  li label span{
+	width: 1.2rem;
+}
+.backCharge li:nth-child(6) label span,.backCharge li:nth-child(12) label span,.backCharge li:nth-child(14) label span,.backCharge li:nth-child(18) label span{
+	width: .8rem;
+}
+.vocational  li:nth-child(1) label span,.vocational  li:nth-child(5) label span,.vocational  li:nth-child(6) label span,.vocational  li:nth-child(8) label span{
+	width: .8rem;
+}

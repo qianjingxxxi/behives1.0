@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport"content="width=device-width, initial-scale=1, user-scalable=no">
+		<meta name="apple-mobile-web-app-capable" content="yes" />
+		<meta name="apple-mobile-web-app-status-bar-style" content="black" />
+		<meta name="format-detection" content="telephone=no" />
+		<link rel="stylesheet" href="css/reset.css" />
+		<link rel="stylesheet" href="css/login.css" />
+		<script src="jqueryMobile/jquery.min.js"></script>
+		<script src="js/common.js"></script>
+		<title>登录</title>
+	</head>
+	<body>
+		<div class="loginPages">
+			<h1><img src="images/login/logo.png" alt="logo" /></h1>
+			<h2>OA办公自动化管理系统</h2>
+			<h3>OA Office Automation Management System</h3>
+			<div class="formData">
+				<div class="user">
+					<input type="text" id="user" placeholder="请输入账号"/>
+				</div>
+				<div class="password">
+					<input type="password" id="password" placeholder="请输入密码"/>
+				</div>
+				<div class="code">
+					<section  class="slider" id="slider">
+						<div class="label">向右滑动验证</div>
+						<div class="track" id="track">
+							<div class="bg-green">验证通过</div>
+						</div>
+						<div class="button" id="btn">
+							<div class="icon" id="icon"></div>
+							<div class="spinner" id="spinner"></div>
+						</div>
+						<!--<p>看不清楚，换一张</p>
+						<div class="codeBg"><input type="text" id="code" placeholder="验证码" value="" /></div>
+						<div id="v_container" class="v_container" style="width: 140px;height:80px;"></div>-->
+					</section>
+				</div>
+				<div class="submit" id="submit">
+					<input type="button" value="登录"/>
+				</div>
+			</div>
+		</div>
+		<script src="jqueryMobile/slider.js"></script>
+		<script src="js/https.js"></script>
+		<script src="js/config.js"></script>
+		<script src="js/login.js"></script>-
+	</body>
+</html>

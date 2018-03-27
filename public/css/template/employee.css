@@ -1,0 +1,28 @@
+.search{
+	background: #e5e7e8;
+	padding: .12rem .2rem;
+}
+.search>div input{
+	background: url(../../images/work/seatch.png) no-repeat;
+	background-size: .26rem;
+	background-position: left center; 
+}
+table{width: 100%;}
+table tr{
+	border: 1px solid #999;
+	line-height: .6rem;
+	text-align: center;
+}
+table th{
+	border:none;
+	background: #555459;
+	font-size: .28rem;
+	color: #2b2b2b;
+	font-weight: 500;
+	color: #fff;
+}
+table td{
+	font-size: .24rem;
+	color: #2b2b2b;
+	font-weight: 500;
+}
